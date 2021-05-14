@@ -1,0 +1,76 @@
+<PhysX30Collection version="3.4.0" >
+	<UpVector >0 0 0</UpVector>
+	<Scale >
+		<Length >0</Length>
+		<Mass >0</Mass>
+		<Speed >0</Speed>
+	</Scale>
+	<PxMaterial >
+		<Id >1849895584</Id>
+		<DynamicFriction >0.5</DynamicFriction>
+		<StaticFriction >0.5</StaticFriction>
+		<Restitution >1</Restitution>
+		<FrictionCombineMode >eMIN</FrictionCombineMode>
+		<RestitutionCombineMode >eMIN</RestitutionCombineMode>
+	</PxMaterial>
+	<PxMaterial >
+		<Id >1849895664</Id>
+		<DynamicFriction >0.3</DynamicFriction>
+		<StaticFriction >0.3</StaticFriction>
+		<Restitution >0.5</Restitution>
+		<FrictionCombineMode >eAVERAGE</FrictionCombineMode>
+		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
+	</PxMaterial>
+	<PxRigidStatic >
+		<Id >120877344</Id>
+		<Name >groundPlane</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 -0.707107 0 0.707107 0 0 0</LocalPose>
+				<SimulationFilterData >4294967295 4294967295 4294967295 4294967295</SimulationFilterData>
+				<QueryFilterData >0 0 0 0</QueryFilterData>
+				<Materials >
+					<PxMaterialRef >1849895584</PxMaterialRef>
+				</Materials>
+				<ContactOffset >0.0787402</ContactOffset>
+				<RestOffset >0.0393701</RestOffset>
+				<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+				<Name >Ground</Name>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >120877520</Id>
+		<Name >Plane001</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >-0.707107 6.18172e-008 -6.18173e-008 0.707107 1.46965 -2.22268 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Geometry >
+					<PxBoxGeometry >
+						<HalfExtents >250 250 0.005</HalfExtents>
+					</PxBoxGeometry>
+				</Geometry>
+				<LocalPose >0.707107 5.5591e-008 9.63281e-009 0.707107 0 -0.005 0</LocalPose>
+				<SimulationFilterData >65537 1 0 0</SimulationFilterData>
+				<QueryFilterData >0 0 0 0</QueryFilterData>
+				<Materials >
+					<PxMaterialRef >1849895664</PxMaterialRef>
+				</Materials>
+				<ContactOffset >0.0787402</ContactOffset>
+				<RestOffset >0.0393701</RestOffset>
+				<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+				<Name >Plane001</Name>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+</PhysX30Collection>

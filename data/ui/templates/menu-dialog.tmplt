@@ -1,0 +1,31 @@
+
+<div class="menu-dialog visible">
+    <div class="container">
+        <div class="title">
+            <div class="left"></div>
+            <div class="center">
+                <div class="text">Dialog</div>
+                <div class="btn-close"></div>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="content">
+            <div class="content-inner">
+
+                <div class="question">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </div>
+
+                <ul>
+                    <li><span class="n">1</span><span class="t">Phrase 1</span></li>
+                    <li><span class="n">2</span><span class="t">Phrase 2</span></li>
+                    <li><span class="n">3</span><span class="t">Phrase 3</span></li>
+                    <li><span class="n">4</span><span class="t">Phrase 4</span></li>
+                    <li><span class="n">5</span><span class="t">Phrase 5</span></li>
+                </ul>
+        
+            </div>
+        </div>
+    </div>
+    <div class="content"></div>
+</div> <!-- #win-type-2-test -->

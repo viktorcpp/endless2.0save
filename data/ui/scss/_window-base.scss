@@ -1,0 +1,123 @@
+
+.window-base-type-2
+{
+    position: absolute;
+    left:     0;
+    right:    0;
+    top:      -100%;
+    bottom:   100%;
+    z-index:  1;
+
+    .container
+    {
+        @include SciterSize('*');
+
+        flow: vertical;
+
+    } // .container
+
+    .title
+    {
+        background: sprite($sprite-ui, win-type-2-title-back) repeat-x;
+        height:     20px;
+        flow:       horizontal;
+        z-index:    100;
+        position:   relative;
+
+        .left
+        {
+            width:      4px;
+            height:     20px;
+            background: sprite($sprite-ui, win-type-2-title-corner-left) no-repeat;
+
+        } // .left
+
+        .center
+        {
+            @include SciterSize('*');
+
+            height: 20px;
+            flow:   horizontal;
+
+            .text
+            {
+                @include SciterSize('*');
+
+                font-size:   14px;
+                color:       #fff;
+                line-height: 20px;
+
+            } // .text
+
+            .btn
+            {
+                width:  14px;
+                height: 14px;
+                margin: 2px;
+
+                &:hover
+                {
+                    opacity: 0.85;
+                }
+
+                &:active
+                {
+                    opacity: 0.7;
+                }
+
+            } // .btn
+
+            .btn-min
+            {
+                @extend .btn;
+
+                background: sprite($sprite-ui, win-type-2-title-btn-min) no-repeat;
+
+            } // .btn-min
+
+            .btn-close
+            {
+                @extend .btn;
+
+                background: sprite($sprite-ui, win-type-2-title-btn-close) no-repeat;
+
+            } // .btn-close
+
+        } // .center
+
+        .right
+        {
+            width:      4px;
+            height:     20px;
+            background: sprite($sprite-ui, win-type-2-title-corner-right) no-repeat;
+
+        } // .right
+
+    } // .title
+
+    .content
+    {
+        @include SciterSize('*');
+
+        border:     1px solid rgba( 144, 139, 1, 255 );
+        margin-top: -2px;
+        z-index:    99;
+        
+        .content-inner
+        {
+            @include SciterSize('*');
+
+            border:     1px solid rgba( 77, 84, 45, 255 );
+            background: rgba( 0, 0, 0, 0.6 );
+
+        } // .content-inner
+
+    } // .content
+
+    &.visible
+    {
+        top:    0;
+        bottom: 0;
+    }
+
+} // .window-base-type-2

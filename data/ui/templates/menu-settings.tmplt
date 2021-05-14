@@ -1,0 +1,17 @@
+<div class="menu-settings">
+    <div class="menu-frame">
+        <div class="frame-top"></div>
+        <div class="content">
+
+            <div class="mcombobox mcombobox-resolutions">
+                <div class="title">1024x768</div>
+                <div class="body">
+                    <!--<div class="item">1024x768</div>
+                <div class="item">1280x1024</div>-->
+                </div>
+            </div>
+            <div class="frame-bot"></div>
+
+        </div>
+    </div>
+</div>

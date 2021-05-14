@@ -1,0 +1,39 @@
+
+@import "buttons.scss";
+@import "fonts.scss";
+@import "misc.scss";
+@import "window-base.scss";
+@import "fps.scss";
+@import "menu-console.scss";
+@import "menu-main.scss";
+@import "menu-settings.scss";
+@import "menu-character.scss";
+@import "mcombobox.scss";
+@import "mscrollbar.scss";
+@import "icons-weapons.scss";
+@import "menu-inventory.scss";
+@import "menu-dialog.scss";
+@import "test.scss";
+
+html
+{
+    @include SciterSize('*');
+
+    font-family: 'BenderReg';
+    font-size:   20px;
+}
+body
+{
+    @include SciterSize('*');
+
+    overflow: auto;
+    margin:   0;
+    padding:  0;
+    flow:     stack;
+}
+section#hud-main
+{
+    @include SciterSize('*');
+
+    position: relative;
+}

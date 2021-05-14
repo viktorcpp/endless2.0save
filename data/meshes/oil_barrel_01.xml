@@ -1,0 +1,84 @@
+<PhysX30Collection version="3.4.0" >
+	<UpVector >0 0 0</UpVector>
+	<Scale >
+		<Length >0</Length>
+		<Mass >0</Mass>
+		<Speed >0</Speed>
+	</Scale>
+	<PxConvexMesh >
+		<Id >450570640</Id>
+		<points > 0.21454 -0.626089 -0.34715 0.0579404 -0.626549 -0.403486&#x0A;&#x09;&#x09;&#x09;0.184697 0.612299 -0.370172 0.338588 0.611989 0.22865&#x0A;&#x09;&#x09;&#x09;0.172137 0.611509 0.363569 0.233185 -0.626398 0.336673&#x0A;&#x09;&#x09;&#x09;0.000951171 -0.627159 0.401803 -0.0861543 0.610942 0.401369&#x0A;&#x09;&#x09;&#x09;-0.13197 -0.627559 0.373953 -0.40302 -0.628187 -0.0355854&#x0A;&#x09;&#x09;&#x09;-0.400591 0.610811 -0.089101 -0.36671 -0.628002 -0.169263&#x0A;&#x09;&#x09;&#x09;-0.218687 0.610734 0.341182 -0.348777 0.610611 0.204968&#x0A;&#x09;&#x09;&#x09;-0.33209 -0.628113 0.239099 0.404212 -0.625686 0.0063796&#x0A;&#x09;&#x09;&#x09;0.401757 0.612271 0.0816772 0.378814 -0.625836 0.137775&#x0A;&#x09;&#x09;&#x09;-0.301827 0.611204 -0.272758 -0.216857 0.611461 -0.35251&#x0A;&#x09;&#x09;&#x09;-0.219177 -0.627445 -0.347365 0.076782 0.611275 0.401368&#x0A;&#x09;&#x09;&#x09;-0.0720133 -0.586961 -0.401241 -0.0849439 0.61178 -0.400678&#x0A;&#x09;&#x09;&#x09;-0.402827 0.610684 0.0287192 -0.375436 -0.628199 0.147254&#x0A;&#x09;&#x09;&#x09;0.341296 -0.626 0.225067 0.373845 -0.625693 -0.156268&#x0A;&#x09;&#x09;&#x09;0.0556041 0.61207 -0.403094 0.400354 0.612381 -0.026269&#x0A;&#x09;&#x09;&#x09;0.359006 0.612464 -0.186615 0.272774 0.612406 -0.300057&#x0A;&#x09;&#x09;&#x09;-0.369259 0.610614 0.161568</points>
+	</PxConvexMesh>
+	<PxMaterial >
+		<Id >1421050240</Id>
+		<DynamicFriction >0.5</DynamicFriction>
+		<StaticFriction >0.5</StaticFriction>
+		<Restitution >1</Restitution>
+		<FrictionCombineMode >eMIN</FrictionCombineMode>
+		<RestitutionCombineMode >eMIN</RestitutionCombineMode>
+	</PxMaterial>
+	<PxMaterial >
+		<Id >1421050320</Id>
+		<DynamicFriction >0.2</DynamicFriction>
+		<StaticFriction >0.2</StaticFriction>
+		<Restitution >0.6</Restitution>
+		<FrictionCombineMode >eAVERAGE</FrictionCombineMode>
+		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
+	</PxMaterial>
+	<PxRigidStatic >
+		<Id >1421090048</Id>
+		<Name >groundPlane</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 0 0 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0.707107 0.707107 0 0 0</LocalPose>
+				<SimulationFilterData >4294967295 4294967295 4294967295 4294967295</SimulationFilterData>
+				<QueryFilterData >0 0 0 0</QueryFilterData>
+				<Materials >
+					<PxMaterialRef >1421050240</PxMaterialRef>
+				</Materials>
+				<ContactOffset >0.025</ContactOffset>
+				<RestOffset >0</RestOffset>
+				<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+				<Name >Ground</Name>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1421090224</Id>
+		<Name >german_barrel:german_barrel</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 0 -0.612022 0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Geometry >
+					<PxConvexMeshGeometry >
+						<Scale >
+							<Scale >1 1 1</Scale>
+							<Rotation >0 0 0 1</Rotation>
+						</Scale>
+						<ConvexMesh >450570640</ConvexMesh>
+					</PxConvexMeshGeometry>
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0.612022 0</LocalPose>
+				<SimulationFilterData >131074 1 0 0</SimulationFilterData>
+				<QueryFilterData >0 0 0 0</QueryFilterData>
+				<Materials >
+					<PxMaterialRef >1421050320</PxMaterialRef>
+				</Materials>
+				<ContactOffset >0.133057</ContactOffset>
+				<RestOffset >0</RestOffset>
+				<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+				<Name >oil_barrel_01_Shape</Name>
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+</PhysX30Collection>

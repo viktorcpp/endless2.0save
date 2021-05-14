@@ -1,0 +1,349 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        0.3938865661621094,
+        0.6020050048828125,
+        0.3930816650390625
+      ],
+      "min": [
+        -0.3938865661621094,
+        -0.6177915334701538,
+        -0.3930816650390625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31512,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        1,
+        1,
+        0.999999463558197
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.9999371767044067
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 63024,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        0.9961000084877014,
+        0.9922000002115965
+      ],
+      "min": [
+        0.005499999970197678,
+        0.0048999786376953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 13650,
+      "max": [
+        2625
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "_",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 84032,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27300,
+      "byteOffset": 84032,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 111332,
+      "uri": "oil_barrel_01.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/oil_barrel_01_d.dds"
+    }
+  ],
+  "materials": [
+    {
+      "name": "german_barrel:german_barrel2",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "german_barrel:german_barrel",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mesh": 0,
+      "name": "german_barrel:german_barrel"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987,
+      "magFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "extras": {
+    "clayViewerConfig": {
+      "preZ": true,
+      "materials": [
+        {
+          "name": "german_barrel:german_barrel2",
+          "transparent": false,
+          "color": "#ffffff",
+          "emission": "#000000",
+          "alpha": 1,
+          "alphaCutoff": 0,
+          "emissionIntensity": 1,
+          "uvRepeat": {
+            "0": 1,
+            "1": 1
+          },
+          "parallaxOcclusionScale": 0.02,
+          "diffuseMap": "file:///H:/Projects/!SDK/glTF/clay-viewer-0.2.1-win/resources/app.asar/Tex_9929_0.dds",
+          "normalMap": "",
+          "parallaxOcclusionMap": "",
+          "emissiveMap": "",
+          "metalness": 0,
+          "roughness": 1,
+          "metalnessMap": "",
+          "roughnessMap": "",
+          "type": "pbrMetallicRoughness",
+          "targetMeshes": [
+            "german_barrel:german_barrel"
+          ]
+        }
+      ],
+      "takes": [],
+      "textureFlipY": false,
+      "zUpToYUp": false,
+      "shadow": true,
+      "environment": "auto",
+      "viewControl": {
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 20,
+        "beta": 30,
+        "distance": 18
+      },
+      "ground": {
+        "show": true,
+        "grid": false
+      },
+      "mainLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0.8,
+        "color": "#fff",
+        "alpha": 45,
+        "beta": 45,
+        "$padAngle": [
+          0.25,
+          0.5
+        ]
+      },
+      "secondaryLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0,
+        "color": "#fff",
+        "alpha": 60,
+        "beta": -50,
+        "$padAngle": [
+          -0.2777777777777778,
+          0.6666666666666666
+        ]
+      },
+      "tertiaryLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0,
+        "color": "#fff",
+        "alpha": 89,
+        "beta": 0,
+        "$padAngle": [
+          0,
+          0.9888888888888889
+        ]
+      },
+      "ambientLight": {
+        "intensity": 0,
+        "color": "#fff"
+      },
+      "ambientCubemapLight": {
+        "texture": "./asset/texture/pisa.hdr",
+        "$texture": "pisa",
+        "$textureOptions": [
+          "pisa",
+          "Barce_Rooftop_C",
+          "Factory_Catwalk",
+          "Grand_Canyon_C",
+          "Ice_Lake",
+          "Hall",
+          "Old_Industrial_Hall"
+        ],
+        "exposure": 3,
+        "diffuseIntensity": 0.3,
+        "specularIntensity": 0.5
+      },
+      "postEffect": {
+        "enable": true,
+        "bloom": {
+          "enable": true,
+          "intensity": 0.1
+        },
+        "depthOfField": {
+          "enable": false,
+          "focalDistance": 4,
+          "focalRange": 1,
+          "blurRadius": 5,
+          "fstop": 10,
+          "quality": "medium",
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "screenSpaceAmbientOcclusion": {
+          "enable": false,
+          "radius": 1.5,
+          "quality": "medium",
+          "intensity": 1,
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "screenSpaceReflection": {
+          "enable": false,
+          "physical": false,
+          "quality": "medium",
+          "maxRoughness": 0.8,
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "colorCorrection": {
+          "enable": true,
+          "exposure": 0,
+          "brightness": 0,
+          "contrast": 1,
+          "saturation": 1,
+          "lookupTexture": ""
+        },
+        "FXAA": {
+          "enable": false
+        }
+      }
+    }
+  },
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}

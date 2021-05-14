@@ -1,0 +1,7 @@
+
+.placeholder{}
+
+.menu-inventory .inv-items-cont .inv-items
+{
+    /*overflow-y: auto scroll-manner( page-animation:false, step-animation:false, step:50dip );*/
+}

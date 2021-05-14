@@ -1,0 +1,10 @@
+<div class="menu-console">
+    <div class="menu-frame">
+        <div class="content">
+
+            <div class="buffer"></div>
+            <input type="text" value="" filter="0~9a~zA~Z*()/!@#$%^&[]{}|<>?/.,:;\\'\" " />
+
+        </div>
+    </div>
+</div> <!-- #menu-console -->

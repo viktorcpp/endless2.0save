@@ -1,0 +1,95 @@
+
+$sprite-weapons: sprite-map("sprite-weapons/*.png", $new-position:0%, $new-spacing:4px);
+$sprite-ui:      sprite-map("sprite-ui/*.png",      $new-position:0%, $new-spacing:4px);
+
+@mixin SciterSize($str)
+{
+    $str: '*/size:#{$str};/*';
+    /*#{$str}*/
+}
+
+@mixin SciterHeight($str)
+{
+    $str: '*/height:#{$str};/*';
+    /*#{$str}*/
+}
+
+$win-back: rgba( 1, 87, 87, 0.8 );
+
+.window-base
+{
+    @include SciterSize('*');
+
+    position:   absolute;
+    left:       0;
+    top:        -100%;
+    right:      0;
+    bottom:     100%;
+    overflow:   hidden;
+
+    .menu-frame
+    {
+        @include SciterSize('*');
+
+        position:   absolute;
+        background: $win-back;
+
+    } // .menu-frame
+
+    .content
+    {
+        @include SciterSize('*');
+
+        margin: 10px 0;
+
+    } // .content
+
+    .frame-base
+    {
+        position: absolute;
+        z-index:  100;
+        border:   3px solid rgba( 0, 255, 255, 1 );
+        height:   10px;
+        overflow: hidden;
+
+    } // .frame
+
+    .frame-top
+    {
+        @extend .frame-base;
+
+        border-bottom: none;
+        left:          0;
+        top:           0;
+        right:         0;
+
+    } // .frame-top
+
+    .frame-bot
+    {
+        @extend .frame-base;
+
+        border-top: none;
+        left:       0;
+        right:      0;
+        top:        auto;
+        bottom:     0;
+
+    } // .frame-bot
+
+    &.visible
+    {
+        top:    0;
+        bottom: 0;
+
+    } // &.visible
+
+} // .window-base
+
+.item-box
+{
+    width:      48px;
+    height:     48px;
+    background: sprite($sprite-ui, item-box-back) no-repeat;
+
+} // .item-box

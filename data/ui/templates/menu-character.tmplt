@@ -1,0 +1,134 @@
+<div class="menu-character">
+    <div class="menu-frame">
+        <div class="frame-top"></div>
+        <div class="content">
+
+            <div class="char">
+                <img src="images/char-female.png" />
+            </div>
+
+            <div class="inv">
+                <div class="tabs">
+                    <div class="tab active">1</div>
+                    <div class="tab">2</div>
+                    <div class="tab">3</div>
+                    <div class="tab">4</div>
+                    <div class="tab">5</div>
+                    <div class="tab">6</div>
+                    <div class="tab">7</div>
+                    <div class="tab">8</div>
+                    <div class="tab">9</div>
+                    <div class="tab">10</div>
+                </div>
+                <div class="inv-content">
+                    <div class="scrollable">
+                        <div class="container">
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0001"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0002"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0003"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0004"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0005"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0006"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0007"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0008"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0009"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0010"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0011"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0012"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0013"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0014"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0015"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0016"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0017"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0018"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0019"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0020"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0021"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0022"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0023"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0024"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0025"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0026"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0027"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0028"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0029"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0030"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0031"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0032"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0033"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0034"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0035"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0036"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0037"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0038"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0039"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0040"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0041"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0042"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0043"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0044"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0045"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0041"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0042"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0043"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0044"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0045"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0001"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0002"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0003"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0004"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0005"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0006"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0007"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0008"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0009"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0010"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0011"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0012"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0013"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0014"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0015"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0016"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0017"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0018"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0019"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0020"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0021"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0022"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0023"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0024"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0025"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0026"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0027"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0028"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0029"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0030"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0031"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0032"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0033"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0034"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0035"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0036"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0037"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0038"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0039"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0040"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0041"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0042"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0043"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0044"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0045"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0041"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0042"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0043"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0044"></div></div>
+                            <div class="cell"><div class="ico-item tmp-ico-wpn-0045"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- #inv -->
+
+        </div> <!-- #content -->
+        <div class="frame-bot"></div>
+    </div>
+</div> <!-- #menu-character -->

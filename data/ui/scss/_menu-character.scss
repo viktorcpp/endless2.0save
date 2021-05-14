@@ -1,0 +1,126 @@
+
+.menu-character
+{
+    @extend .window-base;
+
+    .menu-frame
+    {
+        min-width: 1024px;
+        margin:    50px;
+
+        .content
+        {
+            flow: horizontal;
+
+        } // .content
+
+        .char
+        {
+            @include SciterSize('*');
+
+            min-height:     616px;
+            border-right:   2px solid rgba( 0, 255, 255, 1 );
+            text-align:     center;
+            vertical-align: top;
+            width:          25%;
+            margin:         0 1px 0 0;
+
+            & > img
+            {
+                width:   80%;
+                margin:  50px 0 0 0;
+                opacity: 0.5;
+            }
+
+        } // .char
+
+        .inv
+        {
+            @include SciterSize('*');
+            @include SciterHeight('1*');
+
+            width:        50%;
+            border-right: 2px solid rgba( 0, 255, 255, 1 );
+
+            .tabs
+            {
+                flow:          horizontal;
+                border-bottom: 1px solid rgba( 0, 255, 255, 1 );
+                overflow-x:    hidden;
+
+                .tab
+                {
+                    min-width:  66px;
+                    height:     66px;
+                    background: rgba( 0, 255, 255, 1 );
+
+                    &:hover, &.active
+                    {
+                        background: rgba( 0, 87, 87, 1 );
+                    }
+
+                } // .tab
+
+            } // .tabs
+
+            & > .inv-content
+            {
+                @include SciterSize('*');
+
+                & > .scrollable
+                {
+                    @include SciterSize('*');
+
+                    overflow-y: auto;
+
+                    & > .container
+                    {
+                        flow:   horizontal-wrap;
+                        margin: 10px;
+
+                    } // & > .container
+
+                } // & > .scrollable
+
+                .cell
+                {
+                    $cell-size: 48px;
+
+                    width:  $cell-size;
+                    height: $cell-size;
+                    border: 2px solid #000;
+
+                    & > div
+                    {
+                        width:            32px; // icon real width
+                        height:           32px; // icon real height
+                        transform:        scale(1.5);
+                        transform-origin: 0 0;
+
+                    } // & > div
+
+                    &:hover
+                    {
+                        outline:    1px solid rgba( 255, 255, 255, 1 ) -1px;
+                        box-shadow: 0 0 12px #000 inset;
+                    }
+
+                    &:active
+                    {
+                        & > div
+                        {
+                            outline:    1px solid rgba( 255, 255, 255, 1 ) 0;
+                            box-shadow: 0 0 32px #000 inset;
+
+                        } // & > div
+                    }
+
+                } // .cell
+
+            } // & > .inv-content
+            
+        } // .inv
+
+    } // .menu-frame
+
+} // .menu-character

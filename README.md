@@ -1,2 +1,6 @@
-# endless2.0save
-Old closed prj SAVE
+# endless2.0
+
+Experimental endless project
+
+VS2017
+C++, DirectX11, PhysX, FMOD, Duktape, Sciter

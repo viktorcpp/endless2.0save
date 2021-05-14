@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{e3ff5a56-af24-4cf7-856b-f2a549501e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResManager">
+      <UniqueIdentifier>{9422d7e1-0ff9-41ec-bf9b-b10b57a1e789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{cf846c2a-6154-49ca-a522-cb12809429b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{dda61978-a672-4e07-988e-9034b1301266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{c23b83d2-4a9f-4943-a925-a19819dd8746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{2494db62-ec5f-40d6-841f-fed977628f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{b53d7556-b202-4aa0-8baa-25cf5842113f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{7a89b99f-d6c6-418f-928f-d115fa38fa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{fa7343ae-d47a-4e9b-af97-eb1caf448ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ffb7c9f1-77c6-480c-91fc-75d97034f07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f925c1c7-264c-42c5-8396-a76160206405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResLoader">
+      <UniqueIdentifier>{63fe557d-86ba-4cec-9b5a-c05b29a5df6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD data">
+      <UniqueIdentifier>{1bc26720-cb77-4652-915f-a3acf7db8104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD data\scss">
+      <UniqueIdentifier>{a5704510-9195-4fd5-9699-409be00349af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD data\scripts">
+      <UniqueIdentifier>{7d220180-beac-4c93-a3f8-e09ceb60999f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD data\templates">
+      <UniqueIdentifier>{35890774-9cd5-4241-8175-e63a53a281a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\includes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\includes-std.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MCore.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\defines-classes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Singleton.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MWindow.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\defines.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MUtils.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MLogger.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MCamera.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MTimer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MHud.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResManager.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResProvider.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResProvider_MeshGLTF.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResProvider_MeshObj.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResProvider_Rigids.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResProvider_Textures.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB_GameObjects.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB_Materials.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB_Meshes.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB_Rigids.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MAssetsDB_Textures.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MPhysicsErrorReport.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MPhysicsMemAllocator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MScripts.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MGameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MMaterial.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MMesh.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MTexture.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MTransform.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MRigidBody.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MWorld.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MRegion.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\includes-gui.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\includes-physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\includes-scripts.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\defines-input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MGLTFAssetLoader.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\defines-meshes.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MRendererDriver.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\includes-directx.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MWorld_AssetMain.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MResLoader.h">
+      <Filter>ResLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MHudAPI.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MCore.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MLogger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MCamera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTimer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MHud.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResManager.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResProvider.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResProvider_MeshGLTF.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResProvider_MeshObj.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MPhysicsErrorReport.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MPhysicsMemAllocator.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MScripts.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MRigidBody.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTexture.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTransform.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MGameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MMaterial.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MWorld.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MRegion.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MMesh.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MGLTFAssetLoader.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MRendererDriver.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB_Meshes.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB_GameObjects.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB_Materials.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB_Rigids.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MAssetsDB_Textures.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResProvider_Rigids.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResProvider_Textures.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MWorld_AssetMain.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MResLoader.cpp">
+      <Filter>ResLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MHudAPI.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="endless2.0.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arrow.cur">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="data\ui\Main.html">
+      <Filter>HUD data</Filter>
+    </None>
+    <None Include="data\ui\scss\_mcombobox.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\Main.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scripts\API.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scripts\Fps.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scripts\Main.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scripts\MCombobox.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-settings.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-console.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-main.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_fps.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_buttons.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_fonts.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_misc.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scripts\MenuConsole.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scripts\MenuMain.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scripts\MenuSettings.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scss\_icons-weapons.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\css\Sciter.css">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-character.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scripts\MenuCharacter.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scss\_test.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\scripts\MDraggable.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scss\_window-base.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-character.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-console.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-main.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-settings.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-inventory.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-inventory.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\scripts\MScrollbar.js">
+      <Filter>HUD data\scripts</Filter>
+    </None>
+    <None Include="data\ui\scss\_mscrollbar.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+    <None Include="data\ui\templates\menu-dialog.tmplt">
+      <Filter>HUD data\templates</Filter>
+    </None>
+    <None Include="data\ui\scss\_menu-dialog.scss">
+      <Filter>HUD data\scss</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\title-24x24.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-32x32.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-48x48.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-64x64.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-24x24.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-32x32.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-48x48.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\title-64x64.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\render-main.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+
+.menu-main
+{
+    @extend .window-base;
+
+    $height: 350px;
+
+    z-index: 99999;
+
+    .menu-frame
+    {
+        width:       40%;
+        min-width:   500px;
+        height:      $height;
+        left:        50%;
+        margin-left: -20%;
+        background:  rgba( 0, 38, 38, 0.75 );
+
+    } // .menu-frame
+
+    .button-settings
+    {
+        @extend .button-base;
+
+        position: absolute;
+        left:     50%;
+        top:      10px;
+        margin:   0 0 0 20px;
+
+    } // .button-settings
+
+    .button-exit
+    {
+        @extend .button-base;
+
+        position: absolute;
+        bottom:   10px;
+        right:    50%;
+        float:    right;
+        margin:   0 20px 0 0;
+
+    } // .button-exit
+    
+    .button-cancel
+    {
+        @extend .button-base;
+
+        position: absolute;
+        bottom:   10px;
+        left:     50%;
+        margin:   0 0 0 20px;
+
+    } // .button-cancel
+
+    &.visible
+    {
+        top:    0;
+        bottom: 0;
+
+        .menu-frame
+        {
+            top:    50%;
+            bottom: auto;
+            margin-top: -($height / 2);
+
+        } // .menu-frame
+
+    } // &.visible
+
+} // .menu-main

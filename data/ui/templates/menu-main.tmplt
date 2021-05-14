@@ -1,0 +1,13 @@
+<div class="menu-main">
+    <div class="menu-frame">
+        <div class="frame-top"></div>
+        <div class="content">
+
+            <div class="button-settings">settings</div>
+            <div class="button-exit">exit</div>
+            <div class="button-cancel">cancel</div>
+
+        </div>
+        <div class="frame-bot"></div>
+    </div>
+</div> <!-- #menu-main -->

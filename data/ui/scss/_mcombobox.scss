@@ -1,0 +1,56 @@
+
+.mcombobox
+{
+    background:  #00ffff;
+    position:    relative;
+    font-family: 'RobotoCondensed';
+    font-size:   22px;
+    height:      30px;
+    line-height: 30px;
+    
+    .title
+    {
+        border: 1px solid #015757;
+
+        &:hover
+        {
+            background: #015757;
+            color:      #00ffff;
+        }
+
+    } // .title
+
+    .body
+    {
+        position: absolute;
+        left:     0;
+        top:      100%;
+        right:    0;
+        display:  none;
+        z-index:  100;
+
+        .item
+        {
+            height:      30px;
+            line-height: 30px;
+            background:  #00ffff;
+
+            &:hover
+            {
+                background: #015757;
+                color:      #00ffff;
+            }
+
+        } // .item
+
+    } // .body
+
+    &.opened
+    {
+        .body
+        {
+            display: block;
+        }
+    }
+
+} // .mcombobox
